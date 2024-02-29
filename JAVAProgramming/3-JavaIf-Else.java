@@ -34,7 +34,7 @@ public class Solution {
             // Logic to determine if it's "Weird" or "Not Weird" based on ranges
             if(2 <= N && N <= 5) {
                 out="Not Weird";
-            } else if(6 <= N && N <= 20) {
+            } else if(6 <= N && N <= 20) {
                 out="Weird";
             } else if(N > 20) { 
                 out="Not Weird";
@@ -45,4 +45,4 @@ public class Solution {
         System.out.println(out); 
     }
 
-} 
+}
