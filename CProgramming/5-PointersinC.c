@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>  // Include standard input/output library for input and output operations
 
 void update(int *a, int *b) {
     // Calculate the sum and difference of the values pointed to by 'a' and 'b'
