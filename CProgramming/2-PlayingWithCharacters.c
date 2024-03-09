@@ -10,9 +10,9 @@ int main() {
 
     scanf("%c\n", &ch);  // Read a single character and consume the newline
 
-    scanf("%[^\n]%*c", ca);  // Read an entire line of input (up to a newline) into 'ca' 
+    scanf("%s", ca);  // Read an entire line of input (up to a newline) into 'ca' 
 
-    scanf("%[^\n]%*c", s);   // Read another entire line of input (up to a newline) into 's'
+    scanf("%[^\n]c", s);   // Read another entire line of input (up to a newline) into 's'
 
     printf("%c\n", ch);   // Print the single character
     printf("%s\n", ca);   // Print the first input line
